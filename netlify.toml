@@ -1,0 +1,10 @@
+[build]
+  publish = "public"
+
+[[edge_functions]]
+  path = "/envdump"
+  function = "envdump"
+
+[[edge_functions]]
+  path = "/ai/*"
+  function = "ai-proxy"
